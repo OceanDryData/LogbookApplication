@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587531247334",
+    "firebase_url": "https://logbookapplication-4e647.firebaseio.com",
+    "project_id": "logbookapplication-4e647",
+    "storage_bucket": "logbookapplication-4e647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587531247334:android:78bcd010835ab73daa6527",
+        "android_client_info": {
+          "package_name": "com.rener.logbookapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587531247334-n41uommk0if540061652iaj6kf5184h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBckeyXhw_xs7dgsR3WcSM6PL6GyaMz1rM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587531247334-n41uommk0if540061652iaj6kf5184h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
