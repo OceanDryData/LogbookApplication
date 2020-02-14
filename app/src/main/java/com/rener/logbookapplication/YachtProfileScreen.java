@@ -33,11 +33,11 @@ public class YachtProfileScreen extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yachtprofile);
 
-        profileName = findViewById(R.id.tbRYachtName);
-        profileLength = findViewById(R.id.tbRLength);
-        profileBoatYear = findViewById(R.id.tbRYear);
-        profileMarina = findViewById(R.id.tbRMarina);
-        profileBox = findViewById(R.id.tbRBoxNumber);
+        profileName = findViewById(R.id.tvName);
+        profileLength = findViewById(R.id.tvLength);
+        profileBoatYear = findViewById(R.id.tvYear);
+        profileMarina = findViewById(R.id.tvMarina);
+        profileBox = findViewById(R.id.tvBox);
         profileUpdate = findViewById(R.id.btnProfileUpdate);
         changePassword = findViewById(R.id.btnChangePassword);
 

@@ -23,6 +23,8 @@ public class UpdateProfileScreen  extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
 
+    YachtProfile yachtProfile;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +71,12 @@ public class UpdateProfileScreen  extends AppCompatActivity {
                 String year = newBoatYear.getText().toString();
                 String marina = newMarina.getText().toString();
                 String box = newBox.getText().toString();
+
+//                newName.setText("Name: " + yachtProfile.getName());
+//                newLength.setText("Length: " + yachtProfile.getLength());
+//                newBoatYear.setText("Boat Year: " + yachtProfile.getYear());
+//                newMarina.setText("Marina: " + yachtProfile.getMarina());
+//                newBox.setText("Box: " + yachtProfile.getBox());
 
                 YachtProfile yachtProfile = new YachtProfile(name, length, year, marina,box);
 

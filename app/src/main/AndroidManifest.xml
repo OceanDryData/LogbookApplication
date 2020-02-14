@@ -23,6 +23,7 @@
         <activity android:name=".InfoRegistrationScreen" />
         <activity android:name=".NewLogScreen" />
         <activity android:name=".MenuScreen" />
+        <activity android:name=".UpdateProfileScreen" />
     </application>
 
 </manifest>
