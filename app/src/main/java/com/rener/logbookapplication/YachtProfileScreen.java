@@ -45,7 +45,7 @@ public class YachtProfileScreen extends AppCompatActivity
         firebaseDatabase = FirebaseDatabase.getInstance();
 
 //        DatabaseReference databaseReference = firebaseDatabase.getReference(firebaseAuth.getUid());
-        DatabaseReference databaseReference = firebaseDatabase.getReference().child("YachtProfileScreen");
+        DatabaseReference databaseReference = firebaseDatabase.getReference(firebaseAuth.getUid()).child("YachtProfile");
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
